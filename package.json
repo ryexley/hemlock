@@ -1,0 +1,32 @@
+{
+  "name": "hemlock",
+  "version": "0.0.1",
+  "description": "Helper library for building microservices on top of hydra and rethinkdb, validating auth0 tokens for auth.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryexley/hemlock.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryexley/hemlock/issues"
+  },
+  "homepage": "https://github.com/ryexley/hemlock#readme",
+  "dependencies": {
+    "configya": "^0.2.2",
+    "express-jwt": "^5.1.0",
+    "fwsp-hydra-express": "^0.14.4",
+    "jwks-rsa": "^1.1.1",
+    "lodash": "^4.17.4",
+    "p-s": "^3.1.0",
+    "thinky": "^2.3.8"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-leankit": "^3.0.0"
+  }
+}

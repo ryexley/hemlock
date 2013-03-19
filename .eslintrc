@@ -1,0 +1,9 @@
+{
+	"extends": [ "leankit", "leankit/es6" ],
+	"env": {
+		"node": true
+	},
+	"rules": {
+		"indent": [ "error", 4 ]
+	}
+}

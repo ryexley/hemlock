@@ -1,0 +1,33 @@
+{
+    "name": "YOUR-SERVICE-NAME",
+    "rethinkdb": {
+        "host": "YOUR-DB-HOST",
+        "db": "YOUR-DB-NAME"
+    },
+    "service": {
+        "hydra": {
+            "version": "0.0.0",
+            "serviceName": "UNNAMED",
+            "serviceDescription": "No description provided",
+            "serviceIP": "",
+            "servicePort": 0,
+            "serviceType": "data",
+            "redis": {
+                "url": "localhost",
+                "port": 6380,
+                "db": 7
+            }
+        },
+        "auth": {
+            "secret": {
+                "cache": true,
+                "rateLimit": true,
+                "jwksRequestsPerMinute": 5,
+                "jwksUri": "YOUR-JSON-WEB-KEY-SET-URI"
+            },
+            "audience": [ "YOUR-AUTH-AUDIENCE" ],
+            "issuer": "YOUR-AUTH-ISSUER",
+            "algorithms": [ "RS256" ]
+        }
+    }
+}
