@@ -1,0 +1,22 @@
+{
+  "name": "hemlock",
+  "version": "0.0.0",
+  "description": "Hunting data tracking web app",
+  "main": "src/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryexley/hemlock.git"
+  },
+  "author": "Bob Yexley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryexley/hemlock/issues"
+  },
+  "homepage": "https://github.com/ryexley/hemlock#readme",
+  "dependencies": {
+    "configya": "^0.2.2"
+  }
+}
