@@ -1,5 +1,9 @@
 {
+	"name": "hemlock",
 	"http": {
 		"port": 7000
+	},
+	"logging": {
+		"level": 5
 	}
 }

@@ -17,6 +17,18 @@
   },
   "homepage": "https://github.com/ryexley/hemlock#readme",
   "dependencies": {
-    "configya": "^0.2.2"
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-es2015-without-strict": "0.0.4",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "body-parser": "^1.15.2",
+    "bunyan-debug-filter": "^1.0.1",
+    "compression": "^1.6.2",
+    "configya": "^0.2.2",
+    "express": "^4.14.0",
+    "http-status": "^0.2.3",
+    "lodash-express": "0.0.3"
   }
 }
