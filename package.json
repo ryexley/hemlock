@@ -4,6 +4,7 @@
   "description": "Hunting data tracking web app",
   "main": "src/",
   "scripts": {
+    "start:dev": "node-dev ./server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,11 +25,14 @@
     "babel-preset-stage-0": "^6.16.0",
     "babel-register": "^6.18.0",
     "body-parser": "^1.15.2",
-    "bunyan-debug-filter": "^1.0.1",
     "compression": "^1.6.2",
     "configya": "^0.2.2",
     "express": "^4.14.0",
     "http-status": "^0.2.3",
-    "lodash-express": "0.0.3"
+    "lodash-express": "0.0.3",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "node-dev": "^3.1.3"
   }
 }

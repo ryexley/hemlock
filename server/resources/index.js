@@ -6,8 +6,8 @@ import { join } from "path";
 export default config => {
 	const router = routerFactory();
 
-	// TODO use api
-	// TODO use web
+	router.use( "/", webFactory() );
+	router.use( "/api", apiFactory() );
 
 	return router;
 };
